@@ -1,0 +1,10 @@
+
+pipelines:
+    - name: data_lake_sink
+      url: /notification/data_lake_sink          
+      handler_class: data_lake_sink.handler.DataLakeSinkHandler
+      options:                           
+        runner: DataFlowRunner
+        project_id: yoga-sandbox-221810
+        temp_location: gs://yoga-sandbox-221810.appspot.com/data_flow_tmp
+        destination_dataset: example
