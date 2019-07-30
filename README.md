@@ -1,6 +1,6 @@
-# pipeline-service
+# pipeline-api
 
-Pipeline Service is our configurable pipeline script executor.  The pipelines in this service are triggered by sending request to the appropriate endpoint that attached to the pipelines.
+This is a configurable pipeline script executor / trigger.  The pipelines in this service are triggered by sending request to the appropriate endpoint that attached to the pipelines.
 
 ## Project Structure Description
 - `config.yml` file
