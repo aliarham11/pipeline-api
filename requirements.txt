@@ -75,7 +75,7 @@ PyVCF==0.6.8
 PyYAML==3.13
 redis==3.2.0
 requests==2.21.0
-rsa==4.0
+rsa==4.1
 scandir==1.9.0
 singledispatch==3.4.0.3
 six==1.12.0
